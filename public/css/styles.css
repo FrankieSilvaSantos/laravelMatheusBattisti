@@ -6,3 +6,16 @@ h1 {
 * {
     font-family: 'Roboto';
 }
+
+p {
+    font-weight: bold;
+}
+
+.menuMain {
+
+    width: 20px;
+}
+
+.imgMenu {
+    width: 50px;
+}

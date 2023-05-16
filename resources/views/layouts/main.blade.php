@@ -34,7 +34,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Criar Eventos</a>
+                        <a class="nav-link active" aria-current="page" href="/events/create">Criar Eventos</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Entrar</a>
@@ -54,6 +54,7 @@
         <footer>
             <p>HDC Eventss &copy; 2020</p>
         </footer>
-           
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

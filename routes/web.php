@@ -38,3 +38,15 @@ Route::get('/produtos_teste/{id?}', function ($id = null) {
     
     return view('product', ['id' => $id]);
 });
+
+Route::get('/testeRequest', function () {
+
+    $busca = request('search');
+
+    return view('testeRequest',['busca' => $busca]);
+});
+
+
+Route::get('/testGetId/{id?}', function ($id = null) {
+    return view('testGetId',['id' => $id]);
+});

@@ -1,21 +1,78 @@
-h1 {
-    color: red;
-    
-}
 
 * {
     font-family: 'Roboto';
+
+     
 }
 
 p {
     font-weight: bold;
 }
 
-.menuMain {
-
-    width: 20px;
-}
-
 .imgMenu {
     width: 50px;
+}
+
+.ContainerCardpositioning {
+    display: inline-flex;
+    position: relative;
+    
+    
+    
+}
+
+.corNav {
+    background-color: #FFF;
+}
+
+.navCor {
+    color: red;
+}
+
+.inputSearch {
+    padding:0 415px 0 10px;
+    
+}
+
+.form[type=search]:focus {
+    border-color: orange;
+    outline: none;
+}
+
+.containerBusca {
+    
+   
+}
+
+.buttonPositioning {
+   
+    
+}
+
+.tituloBusca {
+    color: orange;
+    text-align: center;
+    
+}
+
+.containerForm {
+    
+    
+}
+
+.cardPositioning {
+
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.displayNav {
+    display: none;
+}
+
+.navbarPositioning {
+    display: flex;
+    justify-content: end;
 }

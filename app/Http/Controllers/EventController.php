@@ -3,18 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Event;
+use App\Models\Teste;
 
 class EventController extends Controller
 {
 
     public function index() {
-        $idade = 26;
-        $nome = 'Franzie';
-        $array = [10,20,30,40,50];
-        $namesArray = ['matheus','maria','joao','saulo'];
+        $events = Event::all(); #pegando todos os eventos 
     
-        return view('welcome',['nome' => $nome,'idade' => $idade,'profissao' => 'Coder','array' => $array,
-    'namesArray' => $namesArray]);
+        return view('welcome',['events' => $events]);
     }
 
     public function create() {
@@ -30,6 +28,12 @@ class EventController extends Controller
 
     public function testGetId($id = null) {
         return view('testGetId',['id' => $id]);
+    }
+
+    public function testDb() {
+        $events = Teste::all();
+        
+        return view('testDb',['events' => $events]);
     }
 
 }

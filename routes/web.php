@@ -40,3 +40,5 @@ Route::get('/testeRequest',[EventController::class,'testeRequest']);
 
 
 Route::get('/testGetId/{id?}', [EventController::class,'testGetId']);
+
+Route::get('/testDb',[EventController::class,'testDb']);

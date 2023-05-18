@@ -14,8 +14,8 @@ p {
 }
 
 .ContainerCardpositioning {
-    display: inline-flex;
-    position: relative;
+   
+    
     
     
     
@@ -40,13 +40,17 @@ p {
 }
 
 .containerBusca {
-    
+    margin-top: 30px;
    
 }
 
 .buttonPositioning {
-   
+   background-color: #F2A340;
     
+}
+
+.buttonPositioning:hover {
+    background-color: black;
 }
 
 .tituloBusca {
@@ -61,7 +65,7 @@ p {
 }
 
 .cardPositioning {
-
+    
 }
 
 .buttonContainer {
@@ -75,4 +79,37 @@ p {
 .navbarPositioning {
     display: flex;
     justify-content: end;
+}
+
+.tituloEventos {
+    color: orange;
+    margin-top: 20px;
+}
+
+.overlayImg {
+    background-image: url('/img/banner.jpg');
+    background-size: 50%;
+    max-width: 100%;
+    width: 1320px;
+    height: 400px;
+   
+   
+}
+
+
+.containerCardPositioning2 {
+    
+}
+
+.containerCardPositioning3 {
+    display: inline-flex;
+ 
+    
+}
+
+.buttonCorCard {
+    background-color: #F2A340;
+}
+.buttonCorCard:hover {
+    background-color: black;
 }

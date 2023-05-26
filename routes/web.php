@@ -18,7 +18,7 @@ Route::get('/',[EventController::class,'index']);
 
 Route::get('/events/create',[EventController::class,'create']);
 
-
+Route::post('/events',[EventController::class,'store']);
 
 
 
@@ -42,3 +42,7 @@ Route::get('/testeRequest',[EventController::class,'testeRequest']);
 Route::get('/testGetId/{id?}', [EventController::class,'testGetId']);
 
 Route::get('/testDb',[EventController::class,'testDb']);
+
+Route::get('/testgetimage',[EventController::class,'testGetImage']);
+
+Route::POST('/testgetimage',[EventController::class,'storeImage']);

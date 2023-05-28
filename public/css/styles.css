@@ -178,3 +178,12 @@ font-weight: bold;
     background-color: #F2A340;
     margin-top: 30px;
 }
+
+.button-cor-saiba-mais:hover {
+    background-color: black;
+}
+
+.items-list {
+    list-style: none;
+    padding: 0;
+}

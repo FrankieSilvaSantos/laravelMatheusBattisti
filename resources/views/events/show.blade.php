@@ -24,6 +24,15 @@
 
     <a href="#" class="btn btn-primary button-cor-saiba-mais" id="event-submit">Confirmar Presença</a>
 
+    <div class="" style="margin-top: 20px;">
+    <h3>O evento conta com:</h3>
+    <ul class="items-list">
+        @foreach ($event->items as $item)
+            <li><ion-icon name="play-outline" class="ion-icon"></ion-icon>{{$item}}</li>
+
+        @endforeach
+    </ul>
+</div>
 </div>
 </div>
 

@@ -46,3 +46,5 @@ Route::get('/testDb',[EventController::class,'testDb']);
 Route::get('/testgetimage',[EventController::class,'testGetImage']);
 
 Route::POST('/testgetimage',[EventController::class,'storeImage']);
+
+Route::GET('/events/{id}',[EventController::class,'show']);

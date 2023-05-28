@@ -57,7 +57,7 @@
                     <h5 class="card-title">{{$event->title}}</h5>
                     <p class="card-text">{{$event->city}}</p>
                     <p class="card-text">{{$event->description}}</p>
-                    <a href="#" class="btn btn-primary buttonCorCard">Saber Mais</a>
+                    <a href="/events/{{$event->id}}" class="btn btn-primary buttonCorCard">Saber Mais</a>
                     </div>
                   </div>
             
